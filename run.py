@@ -3,17 +3,6 @@ from vidtopod import convert
 from sys import platform
 from os import walk
 
-# todo: for mkv files always pick the japanese audio track (or give an prompt to specify language track)
-    # should be something like: jp
-# todo: add support for automatically extracting subtitles from mkv files
-    # if there are multiple subtitles in the mkv it should ask which one to pull
-    # but allow people to just default to using the first subtitle found (because fuck Judas)
-# todo: make it cross-platform so it supports Mac and Linux distros.
-# todo: create a github website
-    # pictures on the site to demo it
-    # explain how to use it
-    # change the file names so it's not obvious that you torrented the files
-
 
 def _prompt_for_dir(prompt):
     location = None
