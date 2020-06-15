@@ -19,7 +19,7 @@ Convert your videos into podcasts.
 ## Installation guide
 - Scroll to the bottom of the page and install the latest Python 3.x version from [here](https://www.python.org/downloads/release/python-374/).
     - Note for Windows users: when installing Python make sure you check "Add Python 3.x to PATH"
-- Install the latest version of "video-to-podcast" from [here](https://github.com/iamtruezero/video-to-podcast/releases).
+- Install the latest version of "video-to-podcast" from [here](https://github.com/true-zero/video-to-podcast/archive/master.zip).
 - Unpack the "video-to-podcast" archive to a folder.
 - Run `python -m pip install anitopy` in the terminal.
 - **Important for Linux distro users**: If you are running a linux distro (e.g. Ubuntu or Debian) you need to install ffmpeg before using this tool.
