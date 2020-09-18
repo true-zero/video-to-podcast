@@ -36,7 +36,7 @@ Convert your videos into podcasts.
 - Run `python run_cli.py`
 - Enter the path to where you want the audio files to be stored.
     - Note: This directory must already exist, the program will not create it for you.
-- Enter the path to the anime you want to convert.
+- Enter the path to the video you want to convert.
     - Note: Recommended that you do it season by season unless you have an organised folder structure.
 - Enter the language code of the audio track you want.
     - Note: This is only used for **mkv** files since they can support multiple tracks.
