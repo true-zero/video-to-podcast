@@ -2,9 +2,9 @@ video-to-podcast
 ================
 Convert your videos into podcasts.
 
-<center><img src="image.png" width="75%" height="50%" /></center><br>
+<center><img src="image.png" width="75%" height="50%" /></center>
 <center><i>Running in command-line mode.</i></center>
-<center><img src="image1.png" width="75%" height="50%" /></center><br>
+<center><img src="image1.png" width="75%" height="50%" /></center>
 <center><i>Running in graphical user-interface mode.</i></center>
 
 ---
