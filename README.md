@@ -13,7 +13,7 @@ Convert your videos into podcasts.
 * Supports all major platforms: Windows, Mac, Linux.
 * Automatically finds downloaded subtitles and matches to the episode.
 * Automatically extracts subtitles from mkv files.
-* Utilises multi-threading to process multiple anime episodes in parallel.
+* Utilises multi-threading to process multiple videos in parallel.
 * Replicates the given folder structure.
 * Chunks nearby subtitles to avoid constant awkward cuts.
 
