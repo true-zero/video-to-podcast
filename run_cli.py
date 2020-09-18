@@ -44,14 +44,14 @@ if platform not in ['win32', 'darwin', 'linux']:
     exit(0)
 
 storage_location = _prompt_for_dir('location of where to store: ')
-animes_location = _prompt_for_dir('location of anime to convert: ')
+videos_location = _prompt_for_dir('location of videos to convert: ')
 lang_code = input('audio track language code (leave blank if none needed): ')
 if lang_code == '':
     lang_code = None
 subtitle_sync_ms = _prompt_for_ms('subtitle offset')
 padding_ms = _prompt_for_ms('pad timing')
 
-for root, _, file_names in walk(animes_location): # r'D:\Netflix'
+for root, _, file_names in walk(videos_location):
     file_names = list(filter(lambda p: splitext(p)[1] in ['.mp4', '.mkv'], file_names))
 
     if len(file_names) == 0:

@@ -2,7 +2,10 @@ video-to-podcast
 ================
 Convert your videos into podcasts.
 
-<center><img src="image.png" width="75%" height="50%" /></center>
+<center><img src="image.png" width="75%" height="50%" /></center><br>
+<center><i>Running in command-line mode.</i></center>
+<center><img src="image1.png" width="75%" height="50%" /></center><br>
+<center><i>Running in graphical user-interface mode.</i></center>
 
 ---
 
@@ -24,9 +27,13 @@ Convert your videos into podcasts.
 - Run `python -m pip install anitopy` in the terminal.
 - **Important for Linux distro users**: If you are running a linux distro (e.g. Ubuntu or Debian) you need to install ffmpeg before using this tool.
 
-## How to use
+## How to use - UI mode
 - Run `cd [location of video-to-podcast]` in the terminal.
-- Run `python run.py`
+- Run `python run_ui.py`
+
+## How to use - CLI mode
+- Run `cd [location of video-to-podcast]` in the terminal.
+- Run `python run_cli.py`
 - Enter the path to where you want the audio files to be stored.
     - Note: This directory must already exist, the program will not create it for you.
 - Enter the path to the anime you want to convert.
